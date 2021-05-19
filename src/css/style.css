@@ -188,6 +188,12 @@ nav {
 	padding: 71px 0 65px 0;
 }
 
+.reasons .reasons_item {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
 .reasons .reasons_item .reasons_circle {
 	align-items: center;
 	background-color: #1eacc7;
