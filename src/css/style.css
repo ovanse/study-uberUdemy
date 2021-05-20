@@ -3,6 +3,7 @@
 }
 
 header {
+	height: 50px;
 	position: relative;
 }
 
@@ -60,7 +61,7 @@ nav {
 	opacity: 0.5;
 }
 
-.subheader_call {
+.subheader .subheader_call {
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: 300;
@@ -68,7 +69,7 @@ nav {
 	text-align: right;
 }
 
-.subheader_phone {
+.subheader .subheader_phone {
 	color: #ffffff;
 	display: block;
 	font-size: 22px;
@@ -144,7 +145,7 @@ nav {
 	width: 259px;
 }
 
-.block_subheader {
+.label {
 	font-size: 11px;
 	font-weight: 300;
 	height: 24px;
@@ -155,17 +156,17 @@ nav {
 	width: 115px;
 }
 
-.block_subheader--dark {
+.label--dark {
 	background-color: #000000;
 	color: #ffffff;
 }
 
-.block_subheader--light {
+.label--light {
 	background-color: #ffffff;
 	color: #000000;
 }
 
-.block_header {
+.title {
 	margin-top: 35px;
 	font-size: 38px;
 	font-weight: 700;
@@ -174,16 +175,15 @@ nav {
 	text-transform: uppercase;
 }
 
-.block_header--dark {
+.title--dark {
 	color: #222222;
 }
 
-.block_header--light {
+.title--light {
 	color: #ffffff;
 }
 
 .reasons {
-	background-color: #ffffff;
 	min-height: 900px;
 	padding: 71px 0 65px 0;
 }
@@ -191,7 +191,8 @@ nav {
 .reasons .reasons_item {
 	align-items: center;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	margin-top: 35px;
 }
 
 .reasons .reasons_item .reasons_circle {
@@ -201,5 +202,24 @@ nav {
 	display: flex;
 	height: 113px;
 	justify-content: center;
+	margin-right: 26px;
 	width: 113px;
+}
+
+.reasons .reasons_item .reasons_descr {
+	width: 343px;
+}
+
+.reasons .reasons_item .reasons_descr .reasons_header {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+	line-height: 21px;
+}
+
+.reasons .reasons_item .reasons_descr .reasons_text {
+	color: #202020;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
 }
